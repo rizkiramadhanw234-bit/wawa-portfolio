@@ -107,13 +107,13 @@ export default function Navbar() {
             Home
           </Link>
           <Link
-            href={"/experience"}
+            href={"/about"}
             className={`py-3 px-4 rounded-md hover:bg-gray-800 transition ${
-              pathname === "/experience" ? "text-blue-400 bg-gray-800/50" : ""
+              pathname === "/about" ? "text-blue-400 bg-gray-800/50" : ""
             }`}
             onClick={() => setIsOpen(false)}
           >
-            Experience
+            About
           </Link>
           <Link
             href={"/projects"}
