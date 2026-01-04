@@ -114,31 +114,61 @@ export default function Home() {
                   </div>
                 </div>
 
-                <p className="text-gray-300 leading-relaxed text-sm sm:text-base mb-4 sm:mb-6">
-                  With more than a decade of experience driving business growth,
-                  shaping digital strategies, and executing end-to-end projects
-                  across ERP systems, branding, SEO, digital marketing, and
-                  e-commerce development.
+                <p
+                  className="text-gray-300 leading-relaxed text-sm sm:text-base mb-4 sm:mb-6"
+                  style={{ textAlign: "justify" }}
+                >
+                  Memiliki lebih dari 10 tahun pengalaman dalam Business
+                  Development, Market Intelligence, dan pengelolaan operasional
+                  pada industri asuransi dan layanan berbasis digital.
+                  Berpengalaman dalam mengidentifikasi peluang pertumbuhan
+                  bisnis, merumuskan strategi berbasis data, serta mengelola
+                  hubungan jangka panjang dengan klien dan mitra strategis untuk
+                  mendukung keberlanjutan pendapatan perusahaan.
                 </p>
 
-                <p className="text-gray-300 leading-relaxed text-sm sm:text-base">
-                  My background also includes extensive work in insurance
-                  operations and claim analysis, giving me a strong foundation
-                  in risk evaluation, process efficiency, and data-driven
-                  decision making.
+                <p
+                  className="text-gray-300 leading-relaxed text-sm sm:text-base"
+                  style={{ textAlign: "justify" }}
+                >
+                  Memiliki rekam jejak dalam penyusunan proposal strategis,
+                  negosiasi kontrak bernilai tinggi, serta pengelolaan
+                  portofolio akun klien melalui pendekatan sistematis dalam
+                  skema Key Account Management, dengan penerapan standar kontrol
+                  kualitas dan kepatuhan (compliance) yang konsisten. Peran
+                  dijalankan secara strategis dengan keterlibatan langsung pada
+                  tahap perencanaan hingga koordinasi eksekusi. Kompetensi
+                  profesional diperkuat oleh sertifikasi CDMS dan CDMM sebagai
+                  fondasi keahlian di bidang pemasaran digital dan pengembangan
+                  bisnis yang berorientasi hasil.
                 </p>
               </div>
 
               {/* Approach */}
-              <div className="bg-gray-800/50 backdrop-blur-sm rounded-xl sm:rounded-2xl p-6 sm:p-8 border border-gray-700 shadow-xl">
+              <div className="bg-gray-800/50 backdrop-blur-sm rounded-xl sm:rounded-2xl p-6 sm:p-8 md:h-117 border border-gray-700 shadow-xl">
                 <h4 className="text-lg sm:text-xl font-bold text-gray-100 mb-3 sm:mb-4 flex items-center gap-2">
-                  <span className="text-blue-400">⚡</span> My Approach
+                  <span className="text-blue-400">🛠️</span> Tools & Systems
                 </h4>
-                <p className="text-gray-300 text-sm sm:text-base">
-                  I help organizations translate their goals into measurable
-                  results through structured execution, sharp analytical
-                  insight, and strategic problem-solving across both digital and
-                  insurance-related domains.
+                <p
+                  className="text-gray-300 text-sm sm:text-base leading-relaxed"
+                  style={{ textAlign: "justify" }}
+                >
+                  Terampil menggunakan Google Analytics, Microsoft Excel
+                  (analisis dan pemodelan data), serta Meta Business Suite,
+                  didukung berbagai dashboard operasional untuk pemantauan
+                  kinerja bisnis dan kampanye. Menguasai Figma, Canva, Adobe
+                  Premiere Pro, Filmora, dan CapCut untuk kebutuhan desain dan
+                  produksi konten.
+                </p>
+                <p
+                  className="text-gray-300 text-sm sm:text-base leading-relaxed mt-5"
+                  style={{ textAlign: "justify" }}
+                >
+                  Memiliki pemahaman dalam implementasi ERP dan HRIS, workflow
+                  automation, pemanfaatan solusi bisnis berbasis AI, serta
+                  pengembangan e-commerce berbasis Shopify, yang mendukung
+                  integrasi proses bisnis dan teknologi secara scalable dan
+                  efisien.
                 </p>
               </div>
             </div>
@@ -161,28 +191,31 @@ export default function Home() {
 
                 <div className="space-y-3 sm:space-y-4">
                   <div>
-                    <h4 className="text-base sm:text-lg font-semibold text-gray-200 mb-1 sm:mb-2">
-                      Digital & Creative Mastery
-                    </h4>
-                    <p className="text-gray-400 text-xs sm:text-sm leading-relaxed">
-                      Digital campaign expertise through SEO, Google Ads, Meta
-                      Ads, audience segmentation, and performance analytics.
-                      Experienced in brand development, corporate profile
-                      creation, and digital solutions including e-commerce, ERP,
-                      mobile apps, and AI.
+                    <p
+                      className="text-gray-300 text-sm sm:text-base mb-4 sm:mb-6 leading-relaxed"
+                      style={{ textAlign: "justify" }}
+                    >
+                      Berpengalaman dalam Business Development dan Growth
+                      Management dengan fokus pada market intelligence, analisis
+                      kompetitif, serta perumusan strategi go-to-market berbasis
+                      data. Terbiasa melakukan validasi peluang pasar,
+                      pengembangan pipeline bisnis, dan pengelolaan stakeholder
+                      engagement. Memiliki pengalaman dalam penyusunan proposal
+                      strategis dan high-value negotiation hingga tahap
+                      implementasi dan eksekusi solusi.
                     </p>
-                  </div>
-
-                  <div>
-                    <h4 className="text-base sm:text-lg font-semibold text-gray-200 mb-1 sm:mb-2">
-                      Creative Capabilities
-                    </h4>
-                    <p className="text-gray-400 text-xs sm:text-sm leading-relaxed">
-                      Content ideation, scriptwriting, visual design, and video
-                      post-production. Experience as content creator, editor,
-                      and talent Metalogika provides deep understanding of
-                      audience behavior, algorithms, channel optimization, and
-                      digital brand positioning.
+                    <p
+                      className="text-gray-300 text-sm sm:text-base mb-4 sm:mb-6 leading-relaxed mt-5"
+                      style={{ textAlign: "justify" }}
+                    >
+                      Memiliki kapabilitas kuat dalam insurance claim management
+                      dan operasional, mencakup investigasi kasus, penanganan
+                      dispute, serta analisis tren dan risiko untuk mendukung
+                      pengendalian biaya, peningkatan efisiensi proses, dan
+                      pengambilan keputusan berbasis data. Kemampuan analitis
+                      dan business storytelling digunakan untuk menerjemahkan
+                      insight kompleks menjadi rekomendasi strategis yang
+                      aplikatif dan presisi.
                     </p>
                   </div>
                 </div>
@@ -190,13 +223,30 @@ export default function Home() {
 
               <div className="bg-gray-800/50 backdrop-blur-sm rounded-xl sm:rounded-2xl p-6 sm:p-8 border border-gray-700 shadow-xl">
                 <h4 className="text-gray-200 text-lg sm:text-xl font-bold mb-2 sm:mb-3 flex items-center gap-2">
-                  <span className="text-xl sm:text-2xl">🛠️</span>
-                  Technical Systems
+                  <span className="text-xl sm:text-2xl">⚡</span>
+                  Digital, Growth & Creative
                 </h4>
-                <p className="text-gray-400 text-xs sm:text-sm leading-relaxed">
-                  ERP & HRIS implementation, AI-based business solutions,
-                  workflow automation, and Shopify-based e-commerce development
-                  for scalable and efficient business-technology integration.
+                <p
+                  className="text-gray-300 text-sm sm:text-base mb-4 sm:mb-6  leading-relaxed"
+                  style={{ textAlign: "justify" }}
+                >
+                  Berpengalaman dalam pengelolaan inisiatif pertumbuhan digital
+                  melalui SEO, Google Ads, dan Meta Ads, didukung segmentasi
+                  audiens, optimasi funnel, dan analisis performa kampanye.
+                  Terlibat dalam pengembangan brand dan komunikasi bisnis,
+                  termasuk penyusunan corporate profile, perumusan value
+                  proposition, dan penguatan positioning digital.
+                </p>
+                <p
+                  className="text-gray-300 text-sm sm:text-base mb-4 sm:mb-6 leading-relaxed mt-5"
+                  style={{ textAlign: "justify" }}
+                >
+                  Berpengalaman dalam pengembangan dan integrasi solusi digital
+                  berbasis e-commerce, ERP, dan aplikasi mobile, dengan
+                  pendekatan user-centric dan business-driven. Memiliki
+                  kapabilitas dalam content ideation, scriptwriting, creative
+                  direction, serta video post-production untuk mendukung brand
+                  awareness dan demand generation.
                 </p>
               </div>
             </div>

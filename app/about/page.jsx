@@ -25,22 +25,19 @@ export default function AboutPage() {
             className="text-gray-300 leading-relaxed mb-3 sm:mb-4 text-sm sm:text-base"
             style={{ textAlign: "justify" }}
           >
-            Saya memiliki lebih dari 10 tahun pengalaman dalam pengembangan
-            bisnis, analisis pasar dan supervisi di industri asuransi dan
-            digital agency. Terbiasa mengidentifikasi peluang, menyusun strategi
-            pemasaran yang relevan, serta membangun hubungan yang kuat dengan
-            klien dan mitra.
-          </p>
-          <p
-            className="text-gray-300 leading-relaxed mb-3 sm:mb-4 text-sm sm:text-base"
-            style={{ textAlign: "justify" }}
-          >
-            Berpengalaman menyiapkan proposal, melakukan negosiasi, dan
-            mendukung akuisisi klien dengan pendekatan yang terukur. Terampil
-            melakukan presentasi dan bekerja lintas tim untuk memastikan solusi
-            yang ditawarkan tepat dan dapat dieksekusi dengan baik. Saya juga
-            memiliki sertifikasi CDMS dan CDMM sebagai penguatan kompetensi di
-            bidang pemasaran digital dan pengembangan bisnis.
+            Saya memiliki lebih dari 10 tahun pengalaman di bidang Business
+            Development, Market Intelligence, dan pengelolaan operasional pada
+            industri asuransi. Saya berfokus pada identifikasi peluang
+            pertumbuhan bisnis, perumusan strategi berbasis data, serta
+            pengelolaan hubungan jangka panjang dengan klien dan mitra strategis
+            untuk mendorong keberlanjutan pendapatan perusahaan. Saya memiliki
+            rekam jejak yang terukur dalam penyusunan proposal strategis,
+            negosiasi kontrak bernilai tinggi, serta pengelolaan akun klien
+            melalui pendekatan sistematis dalam skema Key Account Management,
+            dengan penerapan standar kontrol kualitas dan kepatuhan (compliance)
+            yang ketat. Kompetensi profesional saya diperkuat oleh sertifikasi
+            CDMS dan CDMM sebagai fondasi keahlian di bidang pemasaran digital
+            dan pengembangan bisnis yang berorientasi pada hasil.
           </p>
         </div>
 
