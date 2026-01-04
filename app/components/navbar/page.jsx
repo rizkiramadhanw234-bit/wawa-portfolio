@@ -63,7 +63,7 @@ export default function Navbar() {
               }
               className="px-4 py-2 lg:px-6 lg:py-2.5 bg-blue-700 rounded-sm text-white hover:bg-blue-600 hover:scale-105 transition duration-300 text-sm lg:text-base"
             >
-              Hire Me!
+              Contact Me!
             </Link>
           </div>
 
@@ -75,7 +75,7 @@ export default function Navbar() {
               }
               className="px-3 py-1.5 bg-blue-700 rounded-sm text-white hover:bg-blue-600 transition duration-300 text-sm"
             >
-              Hire Me!
+              Contact Me!
             </Link>
             <button
               className="text-2xl text-white"

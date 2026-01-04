@@ -7,9 +7,9 @@ export default function AboutPage() {
         {/* Header */}
         <div className="text-center mb-12 sm:mb-16">
           <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-100 mt-4">
-            About{" "}
+            My{" "}
             <span className="text-transparent bg-clip-text bg-linear-to-r from-blue-400 to-blue-600">
-              Me
+              Experience
             </span>
           </h1>
           <p className="text-gray-400 max-w-3xl mx-auto mt-4 sm:mt-6 text-sm sm:text-base lg:text-lg px-4">
@@ -23,23 +23,18 @@ export default function AboutPage() {
         <div className="bg-gray-800/50 backdrop-blur-sm border border-gray-700 rounded-xl sm:rounded-2xl p-6 sm:p-8 mb-12 sm:mb-16 shadow-xl">
           <p className="text-gray-300 leading-relaxed mb-3 sm:mb-4 text-sm sm:text-base">
             Saya memiliki lebih dari 10 tahun pengalaman dalam pengembangan
-            bisnis, analisis pasar, dan supervisi di industri asuransi dan
+            bisnis, analisis pasar dan supervisi di industri asuransi dan
             digital agency. Terbiasa mengidentifikasi peluang, menyusun strategi
             pemasaran yang relevan, serta membangun hubungan yang kuat dengan
             klien dan mitra.
           </p>
           <p className="text-gray-300 leading-relaxed mb-3 sm:mb-4 text-sm sm:text-base">
-            Berpengalaman menyiapkan proposal, melakukan negosiasi, serta
-            mendukung akuisisi klien dengan pendekatan terukur. Terampil dalam
-            presentasi dan kolaborasi lintas tim untuk memastikan solusi dapat
-            dieksekusi dengan optimal.
-          </p>
-          <p className="text-gray-300 leading-relaxed text-sm sm:text-base">
-            Memiliki sertifikasi{" "}
-            <span className="text-blue-400 font-semibold">CDMS</span> dan{" "}
-            <span className="text-blue-400 font-semibold">CDMM</span> sebagai
-            penguatan kompetensi di bidang pemasaran digital dan pengembangan
-            bisnis.
+            Berpengalaman menyiapkan proposal, melakukan negosiasi, dan
+            mendukung akuisisi klien dengan pendekatan yang terukur. Terampil
+            melakukan presentasi dan bekerja lintas tim untuk memastikan solusi
+            yang ditawarkan tepat dan dapat dieksekusi dengan baik. Saya juga
+            memiliki sertifikasi CDMS dan CDMM sebagai penguatan kompetensi di
+            bidang pemasaran digital dan pengembangan bisnis.
           </p>
         </div>
 

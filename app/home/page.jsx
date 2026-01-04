@@ -43,7 +43,8 @@ export default function Home() {
                   View Projects
                 </Link>
                 <a
-                  href="/cv"
+                  href="/CV WARDIL HASAN-1.pdf"
+                  target="_blank"
                   className="px-6 sm:px-8 py-2.5 sm:py-3 bg-gray-800/50 backdrop-blur-sm text-gray-200 font-medium rounded-lg border border-gray-700 hover:bg-gray-700/50 hover:scale-105 transition-all duration-300 text-sm sm:text-base"
                 >
                   Download CV
@@ -280,14 +281,14 @@ export default function Home() {
       {/* Clients Section */}
       <section className="bg-gray-800 py-12 sm:py-16">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
-          <h2 className="text-white text-center font-bold text-2xl sm:text-3xl lg:text-4xl mb-8 sm:mb-10">
-            My Clients
+          <h2 className="text-white text-center font-bold text-base sm:text-3xl lg:text-4xl mb-8 sm:mb-10">
+            Key Account Management (Corporate & Insurance Clients)
           </h2>
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4 sm:gap-6">
             {dataClients.map((data, id) => (
               <div
                 key={id}
-                className="p-3 sm:p-4 flex bg-blue-600 hover:bg-blue-700 text-white font-medium rounded-lg sm:rounded-xl items-center justify-center shadow-lg hover:scale-105 transition-all duration-300 min-h-15 sm:min-h-20"
+                className="p-3 sm:p-4 flex bg-blue-700 hover:bg-blue-800 text-white font-medium rounded-lg sm:rounded-xl items-center justify-center shadow-lg hover:scale-105 transition-all duration-300 min-h-15 sm:min-h-20"
               >
                 <div className="text-xs sm:text-sm text-center leading-tight">
                   {data.name}
