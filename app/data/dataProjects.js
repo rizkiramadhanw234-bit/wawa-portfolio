@@ -1,4 +1,5 @@
 import AstaKantiImg from "../assets/2023/astakanti.png";
+import AstaKantiImg2 from "../assets/2023/astakanti2.png";
 import FitsImg from "../assets/2022/FITS.ID.png";
 import BrixImg from "../assets/2022/BRIX - Client.png";
 import BankBtnImg from "../assets/2023/btn.png";
@@ -54,7 +55,7 @@ export const dataProjects = [
     description2:
       "Dalam proyek ini, saya berperan dalam merancang konsep solusi digital yang menjembatani kebutuhan bisnis broker dan kebutuhan layanan klien. Peran tersebut mencakup analisis alur interaksi klien, penyusunan fitur self-service, integrasi data dengan sistem ERP internal, serta pengawalan implementasi agar sistem mampu meningkatkan transparansi layanan, kecepatan proses klaim, dan kualitas pengalaman klien secara menyeluruh.",
     description3: "",
-    img: AstaKantiImg,
+    img: AstaKantiImg2,
   },
   {
     id: 5,

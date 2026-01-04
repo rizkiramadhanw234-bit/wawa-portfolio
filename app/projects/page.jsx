@@ -64,13 +64,22 @@ export default function ProjectsPage() {
                       <h1 className="mt-5 text-white text-center font-bold mb-2 text-base md:text-lg">
                         {project.title}
                       </h1>
-                      <p className="text-white text-left text-sm mb-3">
+                      <p
+                        className="text-white text-left leading-relaxed text-sm mb-3"
+                        style={{ textAlign: "justify" }}
+                      >
                         {project.description}
                       </p>
-                      <p className="text-white text-left text-sm mb-3">
+                      <p
+                        className="text-white text-left leading-relaxed text-sm mb-3"
+                        style={{ textAlign: "justify" }}
+                      >
                         {project.description2}
                       </p>
-                      <p className="text-white text-left text-sm mb-3">
+                      <p
+                        className="text-white text-left leading-relaxed text-sm mb-3"
+                        style={{ textAlign: "justify" }}
+                      >
                         {project.description3}
                       </p>
                     </CardContent>
