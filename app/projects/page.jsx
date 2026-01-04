@@ -54,7 +54,7 @@ export default function ProjectsPage() {
             <CarouselContent>
               {dataProjects.map((project, id) => (
                 <CarouselItem key={id}>
-                  <Card className="h-full md:h-180 bg-gray-800 border border-gray-600">
+                  <Card className="h-full md:h-full bg-gray-800 border border-gray-600">
                     <CardContent className="flex flex-col items-center justify-center h-full p-6">
                       <Image
                         src={project.img}
@@ -64,8 +64,14 @@ export default function ProjectsPage() {
                       <h1 className="mt-5 text-white text-center font-bold mb-2 text-base md:text-lg">
                         {project.title}
                       </h1>
-                      <p className="text-white text-center text-sm">
+                      <p className="text-white text-left text-sm mb-3">
                         {project.description}
+                      </p>
+                      <p className="text-white text-left text-sm mb-3">
+                        {project.description2}
+                      </p>
+                      <p className="text-white text-left text-sm mb-3">
+                        {project.description3}
                       </p>
                     </CardContent>
                   </Card>

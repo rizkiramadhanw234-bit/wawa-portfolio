@@ -1,5 +1,5 @@
 import React from "react";
-import ProfileImg from "../assets/profile.png";
+import ProfileImg from "../assets/profile.jpg";
 import Image from "next/image";
 import { dataTools } from "../data/dataTools";
 import { dataCreative } from "../data/dataTools";
@@ -29,10 +29,7 @@ export default function Home() {
               </h1>
 
               <p className="text-gray-400 text-base sm:text-lg md:text-xl lg:text-2xl mt-4 sm:mt-6 mb-6 sm:mb-8 leading-relaxed">
-                Senior Business Development &<br className="hidden sm:block" />
-                <span className="text-gray-300 font-semibold">
-                  Digital Strategy Specialist
-                </span>
+                Senior Business Development & Digital Strategy Specialist
               </p>
 
               <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center lg:justify-start">
