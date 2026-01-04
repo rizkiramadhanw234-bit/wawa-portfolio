@@ -21,14 +21,20 @@ export default function AboutPage() {
 
         {/* Summary */}
         <div className="bg-gray-800/50 backdrop-blur-sm border border-gray-700 rounded-xl sm:rounded-2xl p-6 sm:p-8 mb-12 sm:mb-16 shadow-xl">
-          <p className="text-gray-300 leading-relaxed mb-3 sm:mb-4 text-sm sm:text-base">
+          <p
+            className="text-gray-300 leading-relaxed mb-3 sm:mb-4 text-sm sm:text-base"
+            style={{ textAlign: "justify" }}
+          >
             Saya memiliki lebih dari 10 tahun pengalaman dalam pengembangan
             bisnis, analisis pasar dan supervisi di industri asuransi dan
             digital agency. Terbiasa mengidentifikasi peluang, menyusun strategi
             pemasaran yang relevan, serta membangun hubungan yang kuat dengan
             klien dan mitra.
           </p>
-          <p className="text-gray-300 leading-relaxed mb-3 sm:mb-4 text-sm sm:text-base">
+          <p
+            className="text-gray-300 leading-relaxed mb-3 sm:mb-4 text-sm sm:text-base"
+            style={{ textAlign: "justify" }}
+          >
             Berpengalaman menyiapkan proposal, melakukan negosiasi, dan
             mendukung akuisisi klien dengan pendekatan yang terukur. Terampil
             melakukan presentasi dan bekerja lintas tim untuk memastikan solusi
