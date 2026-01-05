@@ -43,117 +43,268 @@ export default function AboutPage() {
 
         {/* Experience Timeline */}
         <div className="space-y-6 sm:space-y-8">
-          {/** PT Deltaloka */}
+          {/** PT Sinar Mulia Makmur */}
           <div className="bg-gray-800/50 border border-gray-700 rounded-xl sm:rounded-2xl p-6 sm:p-8 shadow-xl hover:border-gray-600 transition-all duration-300">
             <h3 className="text-xl sm:text-2xl font-bold text-gray-100 leading-tight">
-              Senior Business Development Executive
+              Supervisor Business Development
             </h3>
             <p className="text-blue-400 font-medium mt-1 sm:mt-2 text-sm sm:text-base">
-              PT Deltaloka Konsultasi Indonesia — Jakarta | Jul 2023 – Present
+              PT Sinar Mulia Makmur | Okt 2025 – Sekarang
             </p>
-            <ul className="list-disc list-inside text-gray-300 mt-3 sm:mt-4 space-y-1.5 sm:space-y-2 text-xs sm:text-sm">
+            <ul
+              className="list-disc list-inside text-gray-300 mt-3 sm:mt-4 space-y-1.5 sm:space-y-2 text-xs sm:text-sm"
+              style={{ textAlign: "justify" }}
+            >
               <li className="leading-relaxed">
-                Identifikasi dan validasi peluang bisnis berbasis data dan
-                market intelligence.
+                Mengidentifikasi dan memvalidasi peluang bisnis melalui market
+                intelligence, analisis kompetitif, serta segmentasi klien
+                berbasis data untuk Managed Print Services (MPS), IT Equipment
+                Rental (printer dan laptop leasing), serta platform konten
+                digital berbasis YouTube dan media sosial.
               </li>
               <li className="leading-relaxed">
-                Merancang strategi go-to-market, value proposition, pricing, dan
-                roadmap akuisisi.
+                Merancang strategi go-to-market yang mencakup perumusan value
+                proposition, service packaging (creative solutions, digital
+                campaigns, content production, dan YouTube channel management),
+                pricing model, serta roadmap akuisisi klien yang selaras dengan
+                dinamika industri dan kebutuhan pasar.
               </li>
               <li className="leading-relaxed">
-                Mengelola proses end-to-end dari engagement hingga kontrak.
+                Berperan dalam perancangan inisiatif business development dan
+                analisis pertumbuhan bisnis, meliputi solution
+                conceptualization, pemetaan potensi pasar, serta penyusunan
+                rekomendasi strategis berbasis data.
               </li>
               <li className="leading-relaxed">
-                Membangun partnership strategis dan relasi C-level.
+                Berkoordinasi dengan tim lintas fungsi digital marketing dan
+                content strategy untuk memastikan strategi pemasaran yang
+                feasible, scalable, dan relevan terhadap business objectives
+                serta karakter target audiens.
               </li>
               <li className="leading-relaxed">
-                Koordinasi dengan tim engineering, UI/UX, dan digital marketing.
+                Melakukan evaluasi performa proyek dan kampanye melalui analisis
+                ROI dan metrik kinerja konten (engagement, reach, conversion),
+                disertai rekomendasi berbasis insight untuk meningkatkan
+                efektivitas eksekusi dan retensi klien.
               </li>
               <li className="leading-relaxed">
-                Evaluasi performa proyek, ROI analysis, dan process improvement.
-              </li>
-              <li className="leading-relaxed">
-                Perwakilan perusahaan dalam pitching dan thought leadership.
+                Mewakili perusahaan dalam aktivitas komunikasi publik, termasuk
+                peran sebagai host dan spokesperson pada konten solusi kreatif
+                dan digital branding di berbagai kanal digital.
               </li>
             </ul>
           </div>
 
-          {/** IBS Group */}
+          {/** PT Deltaloka Konsultasi Indonesia */}
+          <div className="bg-gray-800/50 border border-gray-700 rounded-xl sm:rounded-2xl p-6 sm:p-8 shadow-xl hover:border-gray-600 transition-all duration-300">
+            <h3 className="text-xl sm:text-2xl font-bold text-gray-100 leading-tight">
+              Senior Business Development
+            </h3>
+            <p className="text-blue-400 font-medium mt-1 sm:mt-2 text-sm sm:text-base">
+              PT Deltaloka Konsultasi Indonesia | Jul 2023 - Okt 2025
+            </p>
+            <ul
+              className="list-disc list-inside text-gray-300 mt-3 sm:mt-4 space-y-1.5 sm:space-y-2 text-xs sm:text-sm"
+              style={{ textAlign: "justify" }}
+            >
+              <li className="leading-relaxed">
+                Memimpin identifikasi dan validasi peluang bisnis melalui market
+                intelligence, analisis kompetitif, dan segmentasi klien berbasis
+                data untuk solusi digital dan teknologi.
+              </li>
+              <li className="leading-relaxed">
+                Merancang strategi go-to-market yang mencakup value proposition,
+                service packaging, pricing model, dan roadmap akuisisi klien.
+              </li>
+              <li className="leading-relaxed">
+                Mengelola proses end-to-end mulai dari early engagement hingga
+                negosiasi dan finalisasi kontrak, dengan fokus pada efisiensi,
+                mitigasi risiko, dan pencapaian target pendapatan.
+              </li>
+              <li className="leading-relaxed">
+                Membangun strategic partnership dan hubungan kerja dengan level
+                eksekutif untuk memperluas pipeline dan memperkuat positioning
+                perusahaan.
+              </li>
+              <li className="leading-relaxed">
+                Berkoordinasi dengan tim lintas fungsi (engineering, UI/UX,
+                digital marketing) untuk memastikan solusi yang feasible,
+                scalable, dan selaras dengan kebutuhan bisnis klien.
+              </li>
+              <li className="leading-relaxed">
+                Melakukan evaluasi performa proyek melalui analisis ROI,
+                perbaikan proses, serta rekomendasi berbasis insight untuk
+                meningkatkan kualitas eksekusi dan retensi klien.
+              </li>
+              <li className="leading-relaxed">
+                Mewakili perusahaan dalam aktivitas pitching, presentasi solusi,
+                dan agenda thought leadership eksternal.
+              </li>
+            </ul>
+          </div>
+
+          {/** PT Cipta Integra Duta (IBS Group) */}
           <div className="bg-gray-800/50 border border-gray-700 rounded-xl sm:rounded-2xl p-6 sm:p-8 shadow-xl hover:border-gray-600 transition-all duration-300">
             <h3 className="text-xl sm:text-2xl font-bold text-gray-100 leading-tight">
               Technical Service Executive
             </h3>
             <p className="text-blue-400 font-medium mt-1 sm:mt-2 text-sm sm:text-base">
-              PT Cipta Integra Duta (IBS Group) — Jakarta | Jun 2018 – Jul 2023
+              PT Cipta Integra Duta (IBS Group) | Jun 2018 – Jul 2023
             </p>
-            <ul className="list-disc list-inside text-gray-300 mt-3 sm:mt-4 space-y-1.5 sm:space-y-2 text-xs sm:text-sm">
+            <ul
+              className="list-disc list-inside text-gray-300 mt-3 sm:mt-4 space-y-1.5 sm:space-y-2 text-xs sm:text-sm"
+              style={{ textAlign: "justify" }}
+            >
               <li className="leading-relaxed">
-                Mengelola operasional klaim asuransi korporasi dengan kontrol
-                kualitas ketat.
+                Mengelola operasional klaim asuransi kesehatan, jiwa, dan
+                kecelakaan pada tingkat korporasi, termasuk pengelolaan lebih
+                dari 100 akun klien dan perusahaan asuransi dalam skema Key
+                Account Management, dengan standar kontrol kualitas dan
+                kepatuhan yang ketat.
               </li>
               <li className="leading-relaxed">
-                Menangani dispute case dan investigasi klaim kompleks.
+                Menangani dispute dan investigasi klaim melalui analisis data
+                medis, ketentuan polis, dan underwriting untuk memastikan
+                keputusan klaim yang akurat dan terukur.
               </li>
               <li className="leading-relaxed">
-                Terlibat dalam desain dan pengembangan ERP serta platform
-                e-commerce.
+                Berperan dalam pengembangan FITS.ID, platform e-commerce
+                kesehatan berbasis wellness ecosystem, dengan fokus pada system
+                analysis, user experience, serta integrasi produk asuransi dalam
+                alur digital.
               </li>
               <li className="leading-relaxed">
-                Menyusun laporan analitik tren klaim dan risk exposure.
+                Berkontribusi dalam pengembangan BRIX, sistem ERP broker
+                asuransi, melalui analisis alur klaim, manajemen data, serta
+                otomatisasi perhitungan premi untuk meningkatkan efisiensi,
+                transparansi, dan skalabilitas operasional.
               </li>
               <li className="leading-relaxed">
-                Menginisiasi program edukasi kesehatan berbasis data.
+                Menyusun laporan analitik terkait tren klaim, risk exposure, dan
+                rekomendasi strategis guna penguatan kontrol biaya dan
+                peningkatan efisiensi operasional.
+              </li>
+              <li className="leading-relaxed">
+                Menginisiasi program edukasi kesehatan berbasis data untuk
+                menurunkan claim ratio melalui pendekatan preventif dan
+                perubahan perilaku peserta.
               </li>
             </ul>
           </div>
 
-          {/** Mega Insurance */}
+          {/** Rumah Sakit Suci Paramita */}
           <div className="bg-gray-800/50 border border-gray-700 rounded-xl sm:rounded-2xl p-6 sm:p-8 shadow-xl hover:border-gray-600 transition-all duration-300">
             <h3 className="text-xl sm:text-2xl font-bold text-gray-100 leading-tight">
-              Claims Officer Executive
+              Insurance & Administration Officer
             </h3>
             <p className="text-blue-400 font-medium mt-1 sm:mt-2 text-sm sm:text-base">
-              Mega Insurance (CT Corp) — Bali & Jakarta | Jun 2015 – Nov 2016
+              Rumah Sakit Suci Paramita | Nov 2016 – Des 2017
             </p>
-            <ul className="list-disc list-inside text-gray-300 mt-3 sm:mt-4 space-y-1.5 sm:space-y-2 text-xs sm:text-sm">
+            <ul
+              className="list-disc list-inside text-gray-300 mt-3 sm:mt-4 space-y-1.5 sm:space-y-2 text-xs sm:text-sm"
+              style={{ textAlign: "justify" }}
+            >
               <li className="leading-relaxed">
-                Mengelola lifecycle klaim managed care wilayah Bali.
+                Mengelola operasional klaim pasien asuransi dengan fokus pada
+                ketepatan validasi, kelengkapan dokumentasi, dan penyelesaian
+                sengketa klaim.
               </li>
               <li className="leading-relaxed">
-                Risk assessment pada klaim berpotensi tinggi.
+                Mendukung pengembangan kerja sama corporate insurance serta
+                inisiatif pemasaran layanan kesehatan, termasuk akuisisi kerja
+                sama dengan lebih dari 13 perusahaan asuransi.
               </li>
               <li className="leading-relaxed">
-                Penyusunan laporan analitik biaya dan utilisasi layanan.
+                Melakukan studi kepuasan pasien dan analisis service performance
+                sebagai dasar penyempurnaan kualitas dan efektivitas layanan.
               </li>
             </ul>
           </div>
 
-          {/** Healthcare Background */}
+          {/** Mega Insurance (CT Corp)*/}
           <div className="bg-gray-800/50 border border-gray-700 rounded-xl sm:rounded-2xl p-6 sm:p-8 shadow-xl hover:border-gray-600 transition-all duration-300">
             <h3 className="text-xl sm:text-2xl font-bold text-gray-100 leading-tight">
-              Healthcare & Claims Background
+              Claims Officer Executive{" "}
             </h3>
-            <ul className="list-disc list-inside text-gray-300 mt-3 sm:mt-4 space-y-1.5 sm:space-y-2 text-xs sm:text-sm">
+            <p className="text-blue-400 font-medium mt-1 sm:mt-2 text-sm sm:text-base">
+              Mega Insurance (CT Corp) | Jun 2015 – Nov 2016
+            </p>
+            <ul
+              className="list-disc list-inside text-gray-300 mt-3 sm:mt-4 space-y-1.5 sm:space-y-2 text-xs sm:text-sm"
+              style={{ textAlign: "justify" }}
+            >
               <li className="leading-relaxed">
-                RS Suci Paramita — Insurance & Administration Officer
-                (2016–2017)
+                Mengelola lifecycle klaim managed care untuk wilayah Bali,
+                termasuk verifikasi, penilaian medis, serta koordinasi dengan
+                rumah sakit dan pihak ketiga.
               </li>
               <li className="leading-relaxed">
-                Across Asia Assist — Claims Executive (2014–2015)
+                Melakukan risk assessment pada klaim berpotensi tinggi dan
+                memberikan rekomendasi teknis untuk keputusan klaim.
               </li>
               <li className="leading-relaxed">
-                RS Halmahera Siaga — Emergency Nurse (2013–2014)
+                Menyusun laporan analitik triwulanan terkait tren biaya,
+                utilisasi layanan kesehatan, dan pola risiko untuk mendukung
+                keputusan manajemen.
               </li>
             </ul>
-            <p className="text-gray-400 mt-3 sm:mt-4 text-xs sm:text-sm">
-              Fondasi kuat dalam analisis medis, manajemen risiko, dan
-              operasional layanan kesehatan.
+          </div>
+
+          {/** Across Asia Assist */}
+          <div className="bg-gray-800/50 border border-gray-700 rounded-xl sm:rounded-2xl p-6 sm:p-8 shadow-xl hover:border-gray-600 transition-all duration-300">
+            <h3 className="text-xl sm:text-2xl font-bold text-gray-100 leading-tight">
+              Claims Executive
+            </h3>
+            <p className="text-blue-400 font-medium mt-1 sm:mt-2 text-sm sm:text-base">
+              Across Asia Assist | Sep 2014 – Apr 2015
             </p>
+            <ul
+              className="list-disc list-inside text-gray-300 mt-3 sm:mt-4 space-y-1.5 sm:space-y-2 text-xs sm:text-sm"
+              style={{ textAlign: "justify" }}
+            >
+              <li className="leading-relaxed">
+                Mengelola klaim asuransi BCA secara nasional melalui proses
+                verifikasi yang presisi dan pengelolaan risiko yang terstruktur.
+              </li>
+              <li className="leading-relaxed">
+                Melakukan investigasi klaim kompleks serta menyusun rekomendasi
+                berdasarkan temuan data, dokumen medis, dan kebijakan polis.
+              </li>
+              <li className="leading-relaxed">
+                Menyusun laporan analitik triwulanan sebagai dasar pengambilan
+                keputusan operasional dan evaluasi efisiensi.
+              </li>
+            </ul>
+          </div>
+
+          {/** RS Halmahera Siaga */}
+          <div className="bg-gray-800/50 border border-gray-700 rounded-xl sm:rounded-2xl p-6 sm:p-8 shadow-xl hover:border-gray-600 transition-all duration-300">
+            <h3 className="text-xl sm:text-2xl font-bold text-gray-100 leading-tight">
+              Emergency Nurse
+            </h3>
+            <p className="text-blue-400 font-medium mt-1 sm:mt-2 text-sm sm:text-base">
+              RS Halmahera Siaga | Jul 2013 – Agu 2014
+            </p>
+            <ul
+              className="list-disc list-inside text-gray-300 mt-3 sm:mt-4 space-y-1.5 sm:space-y-2 text-xs sm:text-sm"
+              style={{ textAlign: "justify" }}
+            >
+              <li className="leading-relaxed">
+                Menangani pasien gawat darurat berbasis clinical triage dan
+                protokol keselamatan pasien.
+              </li>
+              <li className="leading-relaxed">
+                Mengelola alur kerja klinis, dokumentasi medis, dan koordinasi
+                unit dalam lingkungan yang membutuhkan ketepatan tinggi dan
+                respon cepat.
+              </li>
+              <li className="leading-relaxed">
+                Mendukung kesinambungan perawatan melalui koordinasi antar
+                profesi dan pengelolaan informasi klinis yang akurat.
+              </li>
+            </ul>
           </div>
         </div>
-
-        {/* Additional Responsive Spacing */}
-        <div className="mt-12 sm:mt-16"></div>
       </div>
     </section>
   );
