@@ -84,14 +84,12 @@ export default function ContactPage() {
               <div className="flex items-center gap-4 mb-4">
                 <FaEnvelope className="text-blue-400 text-2xl" />
                 <span className="text-gray-300 font-medium">
-                  wawa@example.com
+                  wawawardilhasan@gmail.com
                 </span>
               </div>
               <div className="flex items-center gap-4 mb-4">
                 <FaPhone className="text-blue-400 text-2xl" />
-                <span className="text-gray-300 font-medium">
-                  +62 812-3456-7890
-                </span>
+                <span className="text-gray-300 font-medium">085888688869</span>
               </div>
               <div className="flex items-center gap-4">
                 <FaMapMarkerAlt className="text-blue-400 text-2xl" />
