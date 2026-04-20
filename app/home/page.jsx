@@ -1,3 +1,5 @@
+"use client"
+
 import React from "react";
 import ProfileImg from "../assets/profile.jpg";
 import Image from "next/image";
@@ -7,6 +9,7 @@ import { dataClients } from "../data/dataClients";
 import Link from "next/link";
 
 export default function Home() {
+
   return (
     <>
       {/* Hero Section */}
@@ -16,23 +19,23 @@ export default function Home() {
             {/* Text Content */}
             <div className="text-center lg:text-left max-w-2xl order-2 lg:order-1 mt-8 lg:mt-0">
               <div className="inline-block px-3 sm:px-4 py-1.5 sm:py-2 rounded-full bg-gray-800/50 border border-gray-700 mb-4 sm:mb-6">
-                <span className="text-gray-300 text-xs sm:text-sm font-medium">
+                <span className="text-gray-300 text-xs sm:text-sm font-medium" data-aos="fade-up">
                   👋 Welcome to my portfolio
                 </span>
               </div>
 
-              <h1 className="text-gray-100 font-bold text-3xl sm:text-4xl md:text-5xl lg:text-6xl leading-snug sm:leading-tight">
+              <h1 data-aos="fade-up" className="text-gray-100 font-bold text-3xl sm:text-4xl md:text-5xl lg:text-6xl leading-snug sm:leading-tight">
                 Hello, I&apos;m
-                <span className="block text-white mt-1 sm:mt-2">
+                <span className="block text-white mt-1 sm:mt-2" data-aos="fade-up">
                   Wawa Wardil Hasan
                 </span>
               </h1>
 
-              <p className="text-gray-400 text-base sm:text-lg md:text-xl lg:text-2xl mt-4 sm:mt-6 mb-6 sm:mb-8 leading-relaxed">
+              <p data-aos="fade-up" className="text-gray-400 text-base sm:text-lg md:text-xl lg:text-2xl mt-4 sm:mt-6 mb-6 sm:mb-8 leading-relaxed">
                 Senior Business Development & Digital Strategy Specialist
               </p>
 
-              <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center lg:justify-start">
+              <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center lg:justify-start" data-aos="fade-up">
                 <Link
                   href="/projects"
                   className="px-6 sm:px-8 py-2.5 sm:py-3 bg-blue-700 text-white font-medium rounded-lg hover:bg-blue-600 hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl text-sm sm:text-base"
@@ -63,7 +66,7 @@ export default function Home() {
                   sizes="(max-width: 640px) 192px, (max-width: 768px) 224px, (max-width: 1024px) 256px, 288px"
                 />
                 <div className="absolute -bottom-2 -right-2 sm:bottom-2 sm:-right-2 md:bottom-4 md:-right-2 lg:bottom-6 lg:-right-4 bg-gray-900/90 backdrop-blur-sm px-3 py-1.5 sm:px-4 sm:py-2 rounded-lg border border-gray-700 shadow-lg">
-                  <span className="text-gray-200 text-xs sm:text-sm font-medium">
+                  <span className="text-gray-200 text-xs sm:text-sm font-medium" data-aos="fade-up">
                     10+ Years Experience
                   </span>
                 </div>
@@ -85,13 +88,13 @@ export default function Home() {
               </span>
               <div className="w-8 sm:w-10 lg:w-12 h-px bg-linear-to-r from-transparent via-blue-500 to-transparent"></div>
             </div>
-            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-100 mb-4 sm:mb-6">
+            <h2 data-aos="fade-up" className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-100 mb-4 sm:mb-6">
               Professional{" "}
-              <span className="text-transparent bg-clip-text bg-linear-to-r from-blue-400 to-blue-600">
+              <span className="text-transparent bg-clip-text bg-linear-to-r from-blue-400 to-blue-600" data-aos="fade-up">
                 Overview
               </span>
             </h2>
-            <p className="text-gray-400 max-w-3xl mx-auto text-sm sm:text-base lg:text-lg px-4">
+            <p data-aos="fade-up" className="text-gray-400 max-w-3xl mx-auto text-sm sm:text-base lg:text-lg px-4">
               Driving business growth through innovative digital strategies and
               comprehensive project execution
             </p>
@@ -103,20 +106,21 @@ export default function Home() {
             <div className="space-y-6 sm:space-y-8">
               <div className="bg-gray-800/50 backdrop-blur-sm rounded-xl sm:rounded-2xl p-6 sm:p-8 border border-gray-700 shadow-xl hover:border-gray-600 transition-all duration-300">
                 <div className="flex items-start gap-3 sm:gap-4 mb-4 sm:mb-6">
-                  <div className="p-2 sm:p-3 bg-blue-900/30 rounded-lg">
-                    <span className="text-xl sm:text-2xl">🎯</span>
+                  <div className="p-2 sm:p-3 bg-blue-900/30 rounded-lg" data-aos="fade-up">
+                    <span className="text-xl sm:text-2xl" >🎯</span>
                   </div>
                   <div>
-                    <h3 className="text-xl sm:text-2xl font-bold text-gray-100 mb-1 sm:mb-2">
+                    <h3 className="text-xl sm:text-2xl font-bold text-gray-100 mb-1 sm:mb-2" data-aos="fade-up">
                       Experience & Background
                     </h3>
-                    <div className="w-12 sm:w-16 h-1 bg-blue-500 rounded-full"></div>
+                    <div className="w-12 sm:w-16 h-1 bg-blue-500 rounded-full" data-aos="fade-up"></div>
                   </div>
                 </div>
 
                 <p
                   className="text-gray-300 leading-relaxed text-sm sm:text-base mb-4 sm:mb-6"
                   style={{ textAlign: "justify" }}
+                  data-aos="fade-up"
                 >
                   Memiliki lebih dari 10 tahun pengalaman dalam Business
                   Development, Market Intelligence, dan pengelolaan operasional
@@ -130,6 +134,7 @@ export default function Home() {
                 <p
                   className="text-gray-300 leading-relaxed text-sm sm:text-base"
                   style={{ textAlign: "justify" }}
+                  data-aos="fade-up"
                 >
                   Memiliki rekam jejak dalam penyusunan proposal strategis,
                   negosiasi kontrak bernilai tinggi, serta pengelolaan
@@ -146,12 +151,13 @@ export default function Home() {
 
               {/* Approach */}
               <div className="bg-gray-800/50 backdrop-blur-sm rounded-xl sm:rounded-2xl p-6 sm:p-8 md:h-117 border border-gray-700 shadow-xl">
-                <h4 className="text-lg sm:text-xl font-bold text-gray-100 mb-3 sm:mb-4 flex items-center gap-2">
-                  <span className="text-blue-400">🛠️</span> Tools & Systems
+                <h4 className="text-lg sm:text-xl font-bold text-gray-100 mb-3 sm:mb-4 flex items-center gap-2" data-aos="fade-up">
+                  <span className="text-blue-400" data-aos="fade-up">🛠️</span> Tools & Systems
                 </h4>
                 <p
                   className="text-gray-300 text-sm sm:text-base leading-relaxed"
                   style={{ textAlign: "justify" }}
+                  data-aos="fade-up"
                 >
                   Terampil menggunakan Google Analytics, Microsoft Excel
                   (analisis dan pemodelan data), serta Meta Business Suite,
@@ -163,6 +169,7 @@ export default function Home() {
                 <p
                   className="text-gray-300 text-sm sm:text-base leading-relaxed mt-5"
                   style={{ textAlign: "justify" }}
+                  data-aos="fade-up"
                 >
                   Memiliki pemahaman dalam implementasi ERP dan HRIS, workflow
                   automation, pemanfaatan solusi bisnis berbasis AI, serta
@@ -178,14 +185,14 @@ export default function Home() {
               {/* Core Expertise Card */}
               <div className="bg-gray-800/50 backdrop-blur-sm rounded-xl sm:rounded-2xl p-6 sm:p-8 border border-gray-700 shadow-xl">
                 <div className="flex items-start gap-3 sm:gap-4 mb-4 sm:mb-6">
-                  <div className="p-2 sm:p-3 bg-purple-900/30 rounded-lg">
+                  <div className="p-2 sm:p-3 bg-purple-900/30 rounded-lg" data-aos="fade-up">
                     <span className="text-xl sm:text-2xl">🚀</span>
                   </div>
                   <div>
-                    <h3 className="text-xl sm:text-2xl font-bold text-gray-100 mb-1 sm:mb-2">
+                    <h3 className="text-xl sm:text-2xl font-bold text-gray-100 mb-1 sm:mb-2" data-aos="fade-up">
                       Core Expertise
                     </h3>
-                    <div className="w-12 sm:w-16 h-1 bg-blue-500 rounded-full"></div>
+                    <div className="w-12 sm:w-16 h-1 bg-blue-500 rounded-full" data-aos="fade-up"></div>
                   </div>
                 </div>
 
@@ -194,6 +201,7 @@ export default function Home() {
                     <p
                       className="text-gray-300 text-sm sm:text-base mb-4 sm:mb-6 leading-relaxed"
                       style={{ textAlign: "justify" }}
+                      data-aos="fade-up"
                     >
                       Berpengalaman dalam Business Development dan Growth
                       Management dengan fokus pada market intelligence, analisis
@@ -207,6 +215,7 @@ export default function Home() {
                     <p
                       className="text-gray-300 text-sm sm:text-base mb-4 sm:mb-6 leading-relaxed mt-5"
                       style={{ textAlign: "justify" }}
+                      data-aos="fade-up"
                     >
                       Memiliki kapabilitas kuat dalam insurance claim management
                       dan operasional, mencakup investigasi kasus, penanganan
@@ -222,13 +231,14 @@ export default function Home() {
               </div>
 
               <div className="bg-gray-800/50 backdrop-blur-sm rounded-xl sm:rounded-2xl p-6 sm:p-8 border border-gray-700 shadow-xl">
-                <h4 className="text-gray-200 text-lg sm:text-xl font-bold mb-2 sm:mb-3 flex items-center gap-2">
+                <h4 className="text-gray-200 text-lg sm:text-xl font-bold mb-2 sm:mb-3 flex items-center gap-2" data-aos="fade-up">
                   <span className="text-xl sm:text-2xl">⚡</span>
                   Digital, Growth & Creative
                 </h4>
                 <p
                   className="text-gray-300 text-sm sm:text-base mb-4 sm:mb-6  leading-relaxed"
                   style={{ textAlign: "justify" }}
+                  data-aos="fade-up"
                 >
                   Berpengalaman dalam pengelolaan inisiatif pertumbuhan digital
                   melalui SEO, Google Ads, dan Meta Ads, didukung segmentasi
@@ -240,6 +250,7 @@ export default function Home() {
                 <p
                   className="text-gray-300 text-sm sm:text-base mb-4 sm:mb-6 leading-relaxed mt-5"
                   style={{ textAlign: "justify" }}
+                  data-aos="fade-up"
                 >
                   Berpengalaman dalam pengembangan dan integrasi solusi digital
                   berbasis e-commerce, ERP, dan aplikasi mobile, dengan
@@ -281,7 +292,7 @@ export default function Home() {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 sm:gap-8 lg:gap-10 items-stretch">
             <div className="bg-gray-800/50 backdrop-blur-sm border border-gray-700 rounded-xl sm:rounded-2xl p-4 sm:p-6 lg:p-8">
-              <h6 className="text-white text-center font-bold text-xl sm:text-2xl lg:text-3xl mb-6 sm:mb-8 lg:mb-10">
+              <h6 className="text-white text-center font-bold text-xl sm:text-2xl lg:text-3xl mb-6 sm:mb-8 lg:mb-10" data-aos="fade-up">
                 Tools & Systems
               </h6>
               <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-4 lg:grid-cols-4 xl:grid-cols-4 gap-4 sm:gap-6">
@@ -289,6 +300,7 @@ export default function Home() {
                   <div
                     key={index}
                     className="text-white flex flex-col items-center justify-center gap-1 sm:gap-2 p-2 sm:p-3 hover:bg-gray-700/30 rounded-lg transition-colors duration-300"
+                    data-aos="fade-up"
                   >
                     <div className="text-2xl sm:text-3xl lg:text-4xl">
                       {tool.icon}
@@ -302,7 +314,7 @@ export default function Home() {
             </div>
 
             <div className="bg-gray-800/50 backdrop-blur-sm border border-gray-700 rounded-xl sm:rounded-2xl p-4 sm:p-6 lg:p-8">
-              <h6 className="text-white text-center font-bold text-xl sm:text-2xl lg:text-3xl mb-6 sm:mb-8 lg:mb-10">
+              <h6 className="text-white text-center font-bold text-xl sm:text-2xl lg:text-3xl mb-6 sm:mb-8 lg:mb-10" data-aos="fade-up">
                 Creative Tools
               </h6>
               <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-4 lg:grid-cols-4 xl:grid-cols-4 gap-4 sm:gap-6">
@@ -310,6 +322,7 @@ export default function Home() {
                   <div
                     key={index}
                     className="text-white flex flex-col items-center justify-center gap-1 sm:gap-2 p-2 sm:p-3 hover:bg-gray-700/30 rounded-lg transition-colors duration-300"
+                    data-aos="fade-up"
                   >
                     <div className="text-2xl sm:text-3xl lg:text-4xl">
                       {tool.icon}
@@ -328,7 +341,7 @@ export default function Home() {
       {/* Clients Section */}
       <section className="bg-gray-800 py-12 sm:py-16">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
-          <h2 className="text-white text-center font-bold text-base sm:text-3xl lg:text-4xl mb-8 sm:mb-10">
+          <h2 className="text-white text-center font-bold text-base sm:text-3xl lg:text-4xl mb-8 sm:mb-10" data-aos="fade-up">
             Key Account Management (Corporate & Insurance Clients)
           </h2>
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4 sm:gap-6">

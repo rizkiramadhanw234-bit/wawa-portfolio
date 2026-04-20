@@ -24,33 +24,29 @@ export default function Navbar() {
           <div className="hidden md:flex items-center text-white text-base lg:text-base gap-6 lg:gap-10">
             <Link
               href={"/"}
-              className={`${
-                pathname === "/" ? "text-blue-400" : "text-white"
-              } hover:scale-105 transition duration-300 px-1`}
+              className={`${pathname === "/" ? "text-blue-400" : "text-white"
+                } hover:scale-105 transition duration-300 px-1`}
             >
               Home
             </Link>
             <Link
               href={"/about"}
-              className={`${
-                pathname === "/experience" ? "text-blue-400" : "text-white"
-              } hover:scale-105 transition duration-300 px-1`}
+              className={`${pathname === "/about" ? "text-blue-400" : "text-white"
+                } hover:scale-105 transition duration-300 px-1`}
             >
               About
             </Link>
             <Link
               href={"/projects"}
-              className={`${
-                pathname === "/projects" ? "text-blue-400" : "text-white"
-              } hover:scale-105 transition duration-300 px-1`}
+              className={`${pathname === "/projects" ? "text-blue-400" : "text-white"
+                } hover:scale-105 transition duration-300 px-1`}
             >
               Projects
             </Link>
             <Link
               href={"/contact"}
-              className={`${
-                pathname === "/contact" ? "text-blue-400" : "text-white"
-              } hover:scale-110 transition duration-300 px-1`}
+              className={`${pathname === "/contact" ? "text-blue-400" : "text-white"
+                } hover:scale-110 transition duration-300 px-1`}
             >
               Contact
             </Link>
@@ -90,45 +86,40 @@ export default function Navbar() {
 
       {/* Mobile menu open */}
       <div
-        className={`md:hidden w-full bg-(--bg1) text-white flex flex-col transform transition-all duration-300 ease-in-out ${
-          isOpen
-            ? "opacity-100 max-h-screen translate-y-0"
-            : "opacity-0 max-h-0 -translate-y-5 pointer-events-none overflow-hidden"
-        }`}
+        className={`md:hidden w-full bg-(--bg1) text-white flex flex-col transform transition-all duration-300 ease-in-out ${isOpen
+          ? "opacity-100 max-h-screen translate-y-0"
+          : "opacity-0 max-h-0 -translate-y-5 pointer-events-none overflow-hidden"
+          }`}
       >
         <div className="flex flex-col gap-1 p-4">
           <Link
             href={"/"}
-            className={`py-3 px-4 rounded-md hover:bg-gray-800 transition ${
-              pathname === "/" ? "text-blue-400 bg-gray-800/50" : ""
-            }`}
+            className={`py-3 px-4 rounded-md hover:bg-gray-800 transition ${pathname === "/" ? "text-blue-400 bg-gray-800/50" : ""
+              }`}
             onClick={() => setIsOpen(false)}
           >
             Home
           </Link>
           <Link
             href={"/about"}
-            className={`py-3 px-4 rounded-md hover:bg-gray-800 transition ${
-              pathname === "/about" ? "text-blue-400 bg-gray-800/50" : ""
-            }`}
+            className={`py-3 px-4 rounded-md hover:bg-gray-800 transition ${pathname === "/about" ? "text-blue-400 bg-gray-800/50" : ""
+              }`}
             onClick={() => setIsOpen(false)}
           >
             About
           </Link>
           <Link
             href={"/projects"}
-            className={`py-3 px-4 rounded-md hover:bg-gray-800 transition ${
-              pathname === "/projects" ? "text-blue-400 bg-gray-800/50" : ""
-            }`}
+            className={`py-3 px-4 rounded-md hover:bg-gray-800 transition ${pathname === "/projects" ? "text-blue-400 bg-gray-800/50" : ""
+              }`}
             onClick={() => setIsOpen(false)}
           >
             Projects
           </Link>
           <Link
             href={"/contact"}
-            className={`py-3 px-4 rounded-md hover:bg-gray-800 transition ${
-              pathname === "/contact" ? "text-blue-400 bg-gray-800/50" : ""
-            }`}
+            className={`py-3 px-4 rounded-md hover:bg-gray-800 transition ${pathname === "/contact" ? "text-blue-400 bg-gray-800/50" : ""
+              }`}
             onClick={() => setIsOpen(false)}
           >
             Contact

@@ -6,13 +6,13 @@ export default function AboutPage() {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-4xl lg:max-w-6xl">
         {/* Header */}
         <div className="text-center mb-12 sm:mb-16">
-          <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-100 mt-4">
+          <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-100 mt-4" data-aos="fade-up">
             My{" "}
             <span className="text-transparent bg-clip-text bg-linear-to-r from-blue-400 to-blue-600">
               Experience
             </span>
           </h1>
-          <p className="text-gray-400 max-w-3xl mx-auto mt-4 sm:mt-6 text-sm sm:text-base lg:text-lg px-4">
+          <p className="text-gray-400 max-w-3xl mx-auto mt-4 sm:mt-6 text-sm sm:text-base lg:text-lg px-4" data-aos="fade-up">
             Lebih dari satu dekade pengalaman dalam pengembangan bisnis,
             analisis pasar, dan eksekusi strategi di industri asuransi dan
             digital.
@@ -24,7 +24,7 @@ export default function AboutPage() {
           <p
             className="text-gray-300 leading-relaxed mb-3 sm:mb-4 text-sm sm:text-base"
             style={{ textAlign: "justify" }}
-          >
+            data-aos="fade-up">
             Saya memiliki lebih dari 10 tahun pengalaman di bidang Business
             Development, Market Intelligence, dan pengelolaan operasional pada
             industri asuransi. Saya berfokus pada identifikasi peluang
@@ -44,7 +44,7 @@ export default function AboutPage() {
         {/* Experience Timeline */}
         <div className="space-y-6 sm:space-y-8">
           {/** PT Sinar Mulia Makmur */}
-          <div className="bg-gray-800/50 border border-gray-700 rounded-xl sm:rounded-2xl p-6 sm:p-8 shadow-xl hover:border-gray-600 transition-all duration-300">
+          <div className="bg-gray-800/50 border border-gray-700 rounded-xl sm:rounded-2xl p-6 sm:p-8 shadow-xl hover:border-gray-600 transition-all duration-300" data-aos="fade-up">
             <h3 className="text-xl sm:text-2xl font-bold text-gray-100 leading-tight">
               Supervisor Business Development
             </h3>
@@ -96,7 +96,7 @@ export default function AboutPage() {
           </div>
 
           {/** PT Deltaloka Konsultasi Indonesia */}
-          <div className="bg-gray-800/50 border border-gray-700 rounded-xl sm:rounded-2xl p-6 sm:p-8 shadow-xl hover:border-gray-600 transition-all duration-300">
+          <div className="bg-gray-800/50 border border-gray-700 rounded-xl sm:rounded-2xl p-6 sm:p-8 shadow-xl hover:border-gray-600 transition-all duration-300" data-aos="fade-up">
             <h3 className="text-xl sm:text-2xl font-bold text-gray-100 leading-tight">
               Senior Business Development
             </h3>
@@ -144,7 +144,7 @@ export default function AboutPage() {
           </div>
 
           {/** PT Cipta Integra Duta (IBS Group) */}
-          <div className="bg-gray-800/50 border border-gray-700 rounded-xl sm:rounded-2xl p-6 sm:p-8 shadow-xl hover:border-gray-600 transition-all duration-300">
+          <div className="bg-gray-800/50 border border-gray-700 rounded-xl sm:rounded-2xl p-6 sm:p-8 shadow-xl hover:border-gray-600 transition-all duration-300" data-aos="fade-up">
             <h3 className="text-xl sm:text-2xl font-bold text-gray-100 leading-tight">
               Technical Service Executive
             </h3>
@@ -193,7 +193,7 @@ export default function AboutPage() {
           </div>
 
           {/** Rumah Sakit Suci Paramita */}
-          <div className="bg-gray-800/50 border border-gray-700 rounded-xl sm:rounded-2xl p-6 sm:p-8 shadow-xl hover:border-gray-600 transition-all duration-300">
+          <div className="bg-gray-800/50 border border-gray-700 rounded-xl sm:rounded-2xl p-6 sm:p-8 shadow-xl hover:border-gray-600 transition-all duration-300" data-aos="fade-up">
             <h3 className="text-xl sm:text-2xl font-bold text-gray-100 leading-tight">
               Insurance & Administration Officer
             </h3>
@@ -222,7 +222,7 @@ export default function AboutPage() {
           </div>
 
           {/** Mega Insurance (CT Corp)*/}
-          <div className="bg-gray-800/50 border border-gray-700 rounded-xl sm:rounded-2xl p-6 sm:p-8 shadow-xl hover:border-gray-600 transition-all duration-300">
+          <div className="bg-gray-800/50 border border-gray-700 rounded-xl sm:rounded-2xl p-6 sm:p-8 shadow-xl hover:border-gray-600 transition-all duration-300" data-aos="fade-up">
             <h3 className="text-xl sm:text-2xl font-bold text-gray-100 leading-tight">
               Claims Officer Executive{" "}
             </h3>
@@ -251,7 +251,7 @@ export default function AboutPage() {
           </div>
 
           {/** Across Asia Assist */}
-          <div className="bg-gray-800/50 border border-gray-700 rounded-xl sm:rounded-2xl p-6 sm:p-8 shadow-xl hover:border-gray-600 transition-all duration-300">
+          <div className="bg-gray-800/50 border border-gray-700 rounded-xl sm:rounded-2xl p-6 sm:p-8 shadow-xl hover:border-gray-600 transition-all duration-300" data-aos="fade-up">
             <h3 className="text-xl sm:text-2xl font-bold text-gray-100 leading-tight">
               Claims Executive
             </h3>
@@ -278,7 +278,7 @@ export default function AboutPage() {
           </div>
 
           {/** RS Halmahera Siaga */}
-          <div className="bg-gray-800/50 border border-gray-700 rounded-xl sm:rounded-2xl p-6 sm:p-8 shadow-xl hover:border-gray-600 transition-all duration-300">
+          <div className="bg-gray-800/50 border border-gray-700 rounded-xl sm:rounded-2xl p-6 sm:p-8 shadow-xl hover:border-gray-600 transition-all duration-300" data-aos="fade-up">
             <h3 className="text-xl sm:text-2xl font-bold text-gray-100 leading-tight">
               Emergency Nurse
             </h3>

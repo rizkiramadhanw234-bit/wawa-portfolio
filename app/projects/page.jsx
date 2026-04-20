@@ -35,13 +35,13 @@ export default function ProjectsPage() {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
         {/* Header */}
         <div className="text-center mb-16">
-          <h1 className="text-4xl md:text-5xl font-bold text-gray-100 mt-4">
+          <h1 className="text-4xl md:text-5xl font-bold text-gray-100 mt-4" data-aos="fade-up">
             Selected{" "}
-            <span className="text-transparent bg-clip-text bg-blue-500">
+            <span className="text-transparent bg-clip-text bg-blue-500" data-aos="fade-up">
               Works
             </span>
           </h1>
-          <p className="text-gray-400 max-w-3xl mx-auto mt-6">
+          <p className="text-gray-400 max-w-3xl mx-auto mt-6" data-aos="fade-up">
             Kumpulan proyek strategis yang mencerminkan pengalaman dalam
             business development, digital strategy, dan technology-driven
             solutions.
@@ -50,7 +50,7 @@ export default function ProjectsPage() {
 
         {/* carousel */}
         <div className="flex flex-col items-center justify-center mx-auto w-full max-w-sm sm:max-w-md md:max-w-lg lg:max-w-xl mt-4 sm:mt-5">
-          <Carousel setApi={setApi} className="w-full md:w-250">
+          <Carousel setApi={setApi} className="w-full md:w-250" data-aos="fade-up">
             <CarouselContent>
               {dataProjects.map((project, id) => (
                 <CarouselItem key={id}>

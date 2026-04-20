@@ -20,7 +20,7 @@ export default function ContactPage() {
     <section className="min-h-screen bg-gray-900 py-24">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-6xl">
         {/* Header */}
-        <div className="text-center mb-20">
+        <div className="text-center mb-20" data-aos="fade-up">
           <h1 className="text-4xl md:text-5xl font-bold text-gray-100 mt-4">
             Let&apos;s{" "}
             <span className="text-transparent bg-clip-text bg-blue-500">
@@ -34,7 +34,7 @@ export default function ContactPage() {
         </div>
 
         {/* Content Grid */}
-        <div className="grid lg:grid-cols-2 gap-12 items-start">
+        <div className="grid lg:grid-cols-2 gap-12 items-start" data-aos="fade-up">
           {/* Form */}
           <form
             onSubmit={handleSubmit}
