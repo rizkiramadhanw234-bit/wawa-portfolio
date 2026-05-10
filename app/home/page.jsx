@@ -31,10 +31,6 @@ export default function Home() {
                 </span>
               </h1>
 
-              <p data-aos="fade-up" className="text-gray-400 text-base sm:text-lg md:text-xl lg:text-2xl mt-4 sm:mt-6 mb-6 sm:mb-8 leading-relaxed">
-                Senior Business Development & Digital Strategy Specialist
-              </p>
-
               <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center lg:justify-start" data-aos="fade-up">
                 <Link
                   href="/projects"
