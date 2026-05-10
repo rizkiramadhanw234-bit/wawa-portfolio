@@ -41,11 +41,6 @@ export default function ProjectsPage() {
               Works
             </span>
           </h1>
-          <p className="text-gray-400 max-w-3xl mx-auto mt-6" data-aos="fade-up">
-            Kumpulan proyek strategis yang mencerminkan pengalaman dalam
-            business development, digital strategy, dan technology-driven
-            solutions.
-          </p>
         </div>
 
         {/* carousel */}
