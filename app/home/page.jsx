@@ -95,8 +95,7 @@ export default function Home() {
               </span>
             </h2>
             <p data-aos="fade-up" className="text-gray-400 max-w-3xl mx-auto text-sm sm:text-base lg:text-lg px-4">
-              Driving business growth through innovative digital strategies and
-              comprehensive project execution
+              Supporting Healthcare And Insurance Operations Through Corporate Client Coordination, Insurance Broker Services, And Healthcare Business Development.
             </p>
           </div>
 
@@ -122,13 +121,7 @@ export default function Home() {
                   style={{ textAlign: "justify" }}
                   data-aos="fade-up"
                 >
-                  Memiliki lebih dari 10 tahun pengalaman dalam Business
-                  Development, Market Intelligence, dan pengelolaan operasional
-                  pada industri asuransi dan layanan berbasis digital.
-                  Berpengalaman dalam mengidentifikasi peluang pertumbuhan
-                  bisnis, merumuskan strategi berbasis data, serta mengelola
-                  hubungan jangka panjang dengan klien dan mitra strategis untuk
-                  mendukung keberlanjutan pendapatan perusahaan.
+                  Memiliki Pengalaman Di Bidang Healthcare, Operasional Asuransi, Dan Layanan Broker Asuransi Dengan Fokus Pada Koordinasi Layanan Klien Korporasi, Manajemen Klaim, Evaluasi Benefit Asuransi, Serta Pengembangan Relasi Layanan Kesehatan.
                 </p>
 
                 <p
@@ -136,21 +129,12 @@ export default function Home() {
                   style={{ textAlign: "justify" }}
                   data-aos="fade-up"
                 >
-                  Memiliki rekam jejak dalam penyusunan proposal strategis,
-                  negosiasi kontrak bernilai tinggi, serta pengelolaan
-                  portofolio akun klien melalui pendekatan sistematis dalam
-                  skema Key Account Management, dengan penerapan standar kontrol
-                  kualitas dan kepatuhan (compliance) yang konsisten. Peran
-                  dijalankan secara strategis dengan keterlibatan langsung pada
-                  tahap perencanaan hingga koordinasi eksekusi. Kompetensi
-                  profesional diperkuat oleh sertifikasi CDMS dan CDMM sebagai
-                  fondasi keahlian di bidang pemasaran digital dan pengembangan
-                  bisnis yang berorientasi hasil.
+                  Berpengalaman Dalam Mendukung Operasional Layanan Corporate Healthcare, Koordinasi Dengan Perusahaan Asuransi, Serta Pengelolaan Kebutuhan Layanan Dan Administrasi Pada Industri Kesehatan Dan Asuransi.
                 </p>
               </div>
 
               {/* Approach */}
-              <div className="bg-gray-800/50 backdrop-blur-sm rounded-xl sm:rounded-2xl p-6 sm:p-8 md:h-117 border border-gray-700 shadow-xl">
+              <div className="bg-gray-800/50 backdrop-blur-sm rounded-xl sm:rounded-2xl p-6 sm:p-8 md:h-full border border-gray-700 shadow-xl">
                 <h4 className="text-lg sm:text-xl font-bold text-gray-100 mb-3 sm:mb-4 flex items-center gap-2" data-aos="fade-up">
                   <span className="text-blue-400" data-aos="fade-up">🛠️</span> Tools & Systems
                 </h4>
@@ -159,24 +143,14 @@ export default function Home() {
                   style={{ textAlign: "justify" }}
                   data-aos="fade-up"
                 >
-                  Terampil menggunakan Google Analytics, Microsoft Excel
-                  (analisis dan pemodelan data), serta Meta Business Suite,
-                  didukung berbagai dashboard operasional untuk pemantauan
-                  kinerja bisnis dan kampanye. Menguasai Figma, Canva, Adobe
-                  Premiere Pro, Filmora, dan CapCut untuk kebutuhan desain dan
-                  produksi konten.
+                  Terbiasa Menggunakan Microsoft Office, Google Workspace, Google Analytics, Serta Berbagai Tools Pendukung Koordinasi Operasional Dan Administrasi Bisnis.
                 </p>
                 <p
                   className="text-gray-300 text-sm sm:text-base leading-relaxed mt-5"
                   style={{ textAlign: "justify" }}
                   data-aos="fade-up"
                 >
-                  Memiliki pemahaman dalam implementasi ERP dan HRIS, workflow
-                  automation, pemanfaatan solusi bisnis berbasis AI, serta
-                  pengembangan e-commerce berbasis Shopify, yang mendukung
-                  integrasi proses bisnis dan teknologi secara scalable dan
-                  efisien.
-                </p>
+                  Memiliki Pengalaman Dalam Koordinasi Kebutuhan Workflow Operasional Terkait Sistem Berbasis Web Dan Erp Untuk Layanan Broker Asuransi.                </p>
               </div>
             </div>
 
@@ -198,34 +172,46 @@ export default function Home() {
 
                 <div className="space-y-3 sm:space-y-4">
                   <div>
-                    <p
-                      className="text-gray-300 text-sm sm:text-base mb-4 sm:mb-6 leading-relaxed"
+                    <li className="text-gray-300 text-sm sm:text-base leading-relaxed"
                       style={{ textAlign: "justify" }}
-                      data-aos="fade-up"
-                    >
-                      Berpengalaman dalam Business Development dan Growth
-                      Management dengan fokus pada market intelligence, analisis
-                      kompetitif, serta perumusan strategi go-to-market berbasis
-                      data. Terbiasa melakukan validasi peluang pasar,
-                      pengembangan pipeline bisnis, dan pengelolaan stakeholder
-                      engagement. Memiliki pengalaman dalam penyusunan proposal
-                      strategis dan high-value negotiation hingga tahap
-                      implementasi dan eksekusi solusi.
-                    </p>
-                    <p
-                      className="text-gray-300 text-sm sm:text-base mb-4 sm:mb-6 leading-relaxed mt-5"
+                      data-aos="fade-up">
+                      Corporate Healthcare Services
+                    </li>
+                    <li className="text-gray-300 text-sm sm:text-base leading-relaxed"
                       style={{ textAlign: "justify" }}
-                      data-aos="fade-up"
-                    >
-                      Memiliki kapabilitas kuat dalam insurance claim management
-                      dan operasional, mencakup investigasi kasus, penanganan
-                      dispute, serta analisis tren dan risiko untuk mendukung
-                      pengendalian biaya, peningkatan efisiensi proses, dan
-                      pengambilan keputusan berbasis data. Kemampuan analitis
-                      dan business storytelling digunakan untuk menerjemahkan
-                      insight kompleks menjadi rekomendasi strategis yang
-                      aplikatif dan presisi.
-                    </p>
+                      data-aos="fade-up">
+                      Insurance Broker Operations
+                    </li>
+                    <li className="text-gray-300 text-sm sm:text-base leading-relaxed"
+                      style={{ textAlign: "justify" }}
+                      data-aos="fade-up">
+                      Claims Management & Client Coordination
+                    </li>
+                    <li className="text-gray-300 text-sm sm:text-base leading-relaxed"
+                      style={{ textAlign: "justify" }}
+                      data-aos="fade-up">
+                      Benefit Review & Policy Analysis
+                    </li>
+                    <li className="text-gray-300 text-sm sm:text-base leading-relaxed"
+                      style={{ textAlign: "justify" }}
+                      data-aos="fade-up">
+                      Corporate Relationship Management
+                    </li>
+                    <li className="text-gray-300 text-sm sm:text-base leading-relaxed"
+                      style={{ textAlign: "justify" }}
+                      data-aos="fade-up">
+                      Healthcare Marketing & Business Support
+                    </li>
+                    <li className="text-gray-300 text-sm sm:text-base leading-relaxed"
+                      style={{ textAlign: "justify" }}
+                      data-aos="fade-up">
+                      Operational Coordination & Reporting
+                    </li>
+                    <li className="text-gray-300 text-sm sm:text-base leading-relaxed"
+                      style={{ textAlign: "justify" }}
+                      data-aos="fade-up">
+                      Digital Marketing Analysis
+                    </li>
                   </div>
                 </div>
               </div>
@@ -233,31 +219,21 @@ export default function Home() {
               <div className="bg-gray-800/50 backdrop-blur-sm rounded-xl sm:rounded-2xl p-6 sm:p-8 border border-gray-700 shadow-xl">
                 <h4 className="text-gray-200 text-lg sm:text-xl font-bold mb-2 sm:mb-3 flex items-center gap-2" data-aos="fade-up">
                   <span className="text-xl sm:text-2xl">⚡</span>
-                  Digital, Growth & Creative
+                  Digital, Marketing & Partnership
                 </h4>
                 <p
                   className="text-gray-300 text-sm sm:text-base mb-4 sm:mb-6  leading-relaxed"
                   style={{ textAlign: "justify" }}
                   data-aos="fade-up"
                 >
-                  Berpengalaman dalam pengelolaan inisiatif pertumbuhan digital
-                  melalui SEO, Google Ads, dan Meta Ads, didukung segmentasi
-                  audiens, optimasi funnel, dan analisis performa kampanye.
-                  Terlibat dalam pengembangan brand dan komunikasi bisnis,
-                  termasuk penyusunan corporate profile, perumusan value
-                  proposition, dan penguatan positioning digital.
+                  Berpengalaman Dalam Pengembangan Relasi Corporate Healthcare, Penyusunan Program Promosi Layanan Kesehatan, Serta Koordinasi Kerja Sama Dan Co-Branding Dengan Perusahaan Asuransi.
                 </p>
                 <p
                   className="text-gray-300 text-sm sm:text-base mb-4 sm:mb-6 leading-relaxed mt-5"
                   style={{ textAlign: "justify" }}
                   data-aos="fade-up"
                 >
-                  Berpengalaman dalam pengembangan dan integrasi solusi digital
-                  berbasis e-commerce, ERP, dan aplikasi mobile, dengan
-                  pendekatan user-centric dan business-driven. Memiliki
-                  kapabilitas dalam content ideation, scriptwriting, creative
-                  direction, serta video post-production untuk mendukung brand
-                  awareness dan demand generation.
+                  Memahami Penggunaan Digital Marketing Sebagai Pendukung Aktivitas Promosi, Komunikasi Layanan, Dan Pengembangan Relasi Bisnis Pada Industri Kesehatan Dan Asuransi.
                 </p>
               </div>
             </div>
@@ -348,7 +324,7 @@ export default function Home() {
             {dataClients.map((data, id) => (
               <div
                 key={id}
-                className="p-3 sm:p-4 flex bg-blue-700 hover:bg-blue-800 text-white font-medium rounded-lg sm:rounded-xl items-center justify-center shadow-lg hover:scale-105 transition-all duration-300 min-h-15 sm:min-h-20"
+                className="cursor-pointer p-3 sm:p-4 flex bg-blue-700/50 hover:bg-blue-800/50 text-white font-medium rounded-lg sm:rounded-xl items-center justify-center shadow-lg hover:scale-105 transition-all duration-300 min-h-15 sm:min-h-20"
               >
                 <div className="text-xs sm:text-sm text-center leading-tight">
                   {data.name}

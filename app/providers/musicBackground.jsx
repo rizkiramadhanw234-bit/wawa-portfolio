@@ -7,7 +7,7 @@ export default function BackgroundMusic() {
 
     const startMusic = () => {
         if (audioRef.current && !isPlaying) {
-            audioRef.current.volume = 0.3;
+            audioRef.current.volume = 0.6;
             audioRef.current.play()
                 .then(() => {
                     setIsPlaying(true);
