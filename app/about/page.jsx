@@ -12,11 +12,6 @@ export default function AboutPage() {
               Experience
             </span>
           </h1>
-          <p className="text-gray-400 max-w-3xl mx-auto mt-4 sm:mt-6 text-sm sm:text-base lg:text-lg px-4" data-aos="fade-up">
-            Lebih dari satu dekade pengalaman dalam pengembangan bisnis,
-            analisis pasar, dan eksekusi strategi di industri asuransi dan
-            digital.
-          </p>
         </div>
 
         {/* Summary */}
