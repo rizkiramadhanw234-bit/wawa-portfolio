@@ -58,49 +58,6 @@ export const dataProjects = [
     img: AstaKantiImg2,
   },
   {
-    id: 5,
-    title:
-      "Bank BTN: Pengembangan Aplikasi Monitoring Operasional dan Layanan Internal Perbankan",
-    description:
-      "Proyek ini merupakan pengembangan aplikasi internal yang mendukung aktivitas monitoring layanan dan operasional Bank BTN. Sistem dirancang untuk menyajikan data performa layanan, notifikasi, serta informasi internal secara terstruktur dan real-time.",
-    description2:
-      "Dalam proyek ini, saya berperan dalam analisis kebutuhan bisnis, perancangan alur sistem, serta pengembangan pengalaman pengguna agar selaras dengan standar operasional perbankan, keamanan sistem, dan kemudahan adopsi oleh pengguna internal.",
-    description3: "",
-    img: BankBtnImg,
-  },
-  {
-    id: 6,
-    title:
-      "SIMKARI: Pengembangan Sistem Informasi Kepegawaian Terintegrasi Kejaksaan RI",
-    description:
-      "SIMKARI merupakan sistem informasi kepegawaian yang dikembangkan untuk mendukung pengelolaan data sumber daya manusia di lingkungan Kejaksaan Republik Indonesia. Sistem ini mencakup pengelolaan data pegawai, pemantauan batas usia pensiun, mutasi, serta administrasi kepegawaian berbasis regulasi.",
-    description2:
-      "Dalam proyek ini, saya berperan dalam analisis kebutuhan institusi, perumusan alur sistem, serta penerjemahan kebijakan dan proses birokrasi ke dalam solusi digital yang terstruktur. Pendekatan yang digunakan menitikberatkan pada akurasi data, konsistensi proses, dan kemudahan penggunaan, sehingga sistem tidak hanya berfungsi sebagai alat administrasi, tetapi juga sebagai dasar pengambilan keputusan manajerial.",
-    description3: "",
-    img: SimkariImg,
-  },
-  {
-    id: 7,
-    title:
-      "Sand Beach: Pengembangan Platform E-Commerce Fashion Berbasis Mobile",
-    description:
-      "Sand Beach adalah aplikasi e-commerce fashion yang dikembangkan untuk mendukung proses penjualan digital end-to-end, mulai dari manajemen produk, pemesanan, hingga pengelolaan transaksi. Kontribusi saya mencakup analisis model bisnis, perancangan alur pengguna (user flow), serta integrasi kebutuhan operasional penjual dan pengalaman belanja pengguna. Fokus utama diarahkan pada kemudahan navigasi, optimalisasi konversi, dan kesiapan sistem untuk pengembangan skala bisnis.",
-    description2: "",
-    description3: "",
-    img: SandBeachImg,
-  },
-  {
-    id: 8,
-    title:
-      "Ohmura – Pengembangan Platform Marketplace E-Commerce Multi-Kategori",
-    description:
-      "Ohmura adalah platform marketplace e-commerce yang dirancang untuk mengakomodasi berbagai kategori produk dengan pendekatan user-centric. Sistem mencakup manajemen akun, transaksi, promosi, serta pengelolaan data pelanggan.",
-    description2:
-      "Peran saya mencakup penyusunan analisis bisnis, pengembangan konsep solusi digital, serta pengawalan implementasi agar platform mampu mendukung kebutuhan pemasaran digital, operasional penjualan, dan pengalaman pengguna yang konsisten.",
-    description3: "",
-    img: OhmuraImg,
-  },
-  {
     id: 9,
     title:
       "Metalogika : Pengelolaan Kanal YouTube Edukasi Bertema Filsafat, Logika, Sains, dan Spiritualitas ",
@@ -120,26 +77,5 @@ export const dataProjects = [
       "Dalam proyek ini, saya berperan dalam perancangan struktur informasi dan konsep digital yang selaras dengan citra layanan kesehatan. Pendekatan yang digunakan menitikberatkan pada kejelasan komunikasi, kemudahan navigasi, dan representasi profesional institusi tanpa kompleksitas sistem operasional tambahan.",
     description3: "",
     img: KlinikScrImg,
-  },
-  {
-    id: 11,
-    title:
-      "Hanjin Chemical – Pengembangan Website Company Profile Hanjin Chemical",
-    description:
-      "Website Hanjin Chemical dikembangkan sebagai company profile digital untuk merepresentasikan identitas perusahaan, filosofi manajemen, serta portofolio produk industri kimia. Sistem ini dirancang sebagai media komunikasi korporat yang menekankan kredibilitas, skala bisnis, dan kepercayaan pasar.",
-    description2:
-      "Dalam proyek ini, saya berperan dalam analisis kebutuhan komunikasi bisnis, perancangan struktur konten, serta pengembangan konsep digital yang mampu menerjemahkan nilai dan positioning perusahaan ke dalam bentuk visual dan informasi yang profesional serta mudah dipahami oleh audiens bisnis.",
-    description3: "",
-    img: HanjinImg,
-  },
-  {
-    id: 12,
-    title: "Casa Dei Montessori – Brand Launch dan Strategi Digital Marketing",
-    description:
-      "Casa Dei Montessori merupakan institusi pendidikan anak usia dini berkonsep Montessori modern yang dikembangkan sebagai sekolah elit. Pada tahun 2025, saya memimpin pembangunan brand dan strategi digital marketing dari nol, mencakup perumusan brand identity, digital positioning, dan pengembangan ekosistem digital.",
-    description2:
-      "Peran saya meliputi penyusunan strategi branding, pengembangan konten dan visual komunikasi, serta pelaksanaan kampanye pemasaran digital untuk membangun brand awareness, meningkatkan engagement, dan memperkuat posisi Casa Dei Montessori sebagai pilihan pendidikan premium bagi orang tua.",
-    description3: "",
-    img: CesaImg,
   },
 ];
