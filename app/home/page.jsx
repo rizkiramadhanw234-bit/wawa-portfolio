@@ -38,13 +38,7 @@ export default function Home() {
                 >
                   View Projects
                 </Link>
-                <a
-                  href="/CV WARDIL HASAN-1.pdf"
-                  target="_blank"
-                  className="px-6 sm:px-8 py-2.5 sm:py-3 bg-gray-800/50 backdrop-blur-sm text-gray-200 font-medium rounded-lg border border-gray-700 hover:bg-gray-700/50 hover:scale-105 transition-all duration-300 text-sm sm:text-base"
-                >
-                  Download CV
-                </a>
+
               </div>
             </div>
 
