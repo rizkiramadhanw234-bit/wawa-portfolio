@@ -46,10 +46,12 @@ export default function AboutPage() {
               className="list-disc list-inside text-gray-300 mt-3 sm:mt-4 space-y-1.5 sm:space-y-2 text-xs sm:text-sm"
               style={{ textAlign: "justify" }}
             >
-              <li>Mengelola aktivitas pemasaran layanan kesehatan dan pengembangan relasi institusi.</li>
-              <li>Menyusun program promosi dan analisis aktivitas digital marketing untuk mendukung pengembangan layanan.</li>
-              <li>Mengembangkan kerja sama corporate healthcare dan co-branding program dengan perusahaan asuransi.</li>
-              <li>Melakukan koordinasi kebutuhan klien dengan tim operasional dan pelayanan.</li>
+              <li>Mengelola pemasaran layanan kesehatan dan implementasi program promosi.</li>
+              <li>Menyusun strategi digital marketing, media sosial, serta analisis performa campaign dan tren pasar layanan kesehatan.</li>
+              <li>Mengembangkan kerja sama corporate healthcare, institusi, dan kemitraan asuransi.</li>
+              <li>Berkoordinasi dengan tim operasional dan pelayanan untuk mendukung kebutuhan klien dan peningkatan service excellence.</li>
+              <li>Melakukan monitoring KPI marketing, evaluasi program pemasaran, serta penyusunan laporan dan analisis pasar.</li>
+              <li>Mengelola aktivitas branding, event, promosi, dan strategi akuisisi pasien untuk mendukung pertumbuhan layanan.</li>
             </ul>
           </div>
 
